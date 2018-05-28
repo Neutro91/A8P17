@@ -7,4 +7,6 @@ public class Equip {
     public Equip(String nom){
         this.nom = nom;
     }
+
+
 }

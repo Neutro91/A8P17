@@ -9,8 +9,10 @@ import com.company.view.widget.Missatge;
 import com.company.view.widget.WidgetCorredors;
 import com.company.view.widget.WidgetEquips;
 
+import java.io.FileNotFoundException;
+
 public class PantallaModificarCorredor {
-    public static void mostrar(){
+    public static void mostrar() throws FileNotFoundException {
         Missatge.mostrarTitol("MARATHON :: Corredors :: Modificar");
         while(true){
             String nom = LectorTeclat.llegirString("Nom:");
